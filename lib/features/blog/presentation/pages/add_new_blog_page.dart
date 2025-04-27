@@ -162,7 +162,7 @@ class _AddNewBlogPageState extends State<AddNewBlogPage> {
                                   child: Chip(
                                     label: Text(e),
                                     color: selectedTopics.contains(e)
-                                        ? const MaterialStatePropertyAll(
+                                        ? const WidgetStatePropertyAll(
                                             AppPallete.gradient1)
                                         : null,
                                     side: selectedTopics.contains(e)
